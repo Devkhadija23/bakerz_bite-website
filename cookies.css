@@ -1,0 +1,413 @@
+       /* navbar css start */
+.navbar {
+    padding: 18px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#navLinks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#navLinks a {
+    color: #392735;
+    text-decoration: none;
+    font-size: 17px;
+    padding-bottom: 8px;
+    transition: 0.3s;
+}
+
+#navLinks a:hover,
+#navLinks a.active {
+    color: #C76B88;
+    border-bottom: 2px solid #C76B88;
+}
+
+/* Explore Button */
+.explore-area {
+    padding: 0 25px 20px;
+}
+
+.explore-btn {
+    display: block;
+    background-color: #E8A1B0;
+    color: #301D2B;
+    text-align: center;
+    text-decoration: none;
+    padding: 17px;
+    border-radius: 35px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.explore-btn span {
+    margin-left: 12px;
+}
+
+.explore-btn:hover {
+    background-color: #D77F97;
+}
+
+
+
+
+/* ----responsive design--- */
+@media (max-width: 480px) {
+    header {
+        width: 96%;
+        margin: 8px auto;
+    }
+
+    .brand-header {
+        padding: 16px 12px;
+    }
+
+    .brand-icon {
+        width: 50px;
+        height: 50px;
+        font-size: 28px;
+    }
+
+    .brand strong {
+        font-size: 21px;
+    }
+
+    .brand small {
+        font-size: 10px;
+    }
+
+    .top-bar {
+        font-size: 11px;
+    }
+
+    .explore-area {
+        padding: 0 12px 15px;
+    }
+}
+/* ---navbar css end--- */
+
+
+
+
+
+
+
+
+
+
+
+/* cards start  */
+ * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #fff8f5;
+            color: #40252b;
+        }
+
+        .cookies-section {
+            padding: 40px 6%;
+        }
+
+        .heading {
+            text-align: center;
+            margin-bottom: 35px;
+        }
+
+        .heading h1 {
+            font-size: 36px;
+            color: #7b263a;
+            margin-bottom: 10px;
+        }
+
+        .heading p {
+            color: #777;
+            font-size: 15px;
+        }
+
+        .cart {
+            text-align: right;
+            margin-bottom: 20px;
+            font-weight: bold;
+            color: #7b263a;
+        }
+
+        .cookies-container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 25px;
+        }
+
+        .cookie-card {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 12px #00000012;
+            transition: 0.3s;
+        }
+
+        .cookie-card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 8px 20px #7b263a25;
+        }
+
+        .cookie-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            display: block;
+        }
+
+        .cookie-details {
+            padding: 16px;
+        }
+
+        .cookie-details h3 {
+            font-size: 18px;
+            margin-bottom: 8px;
+            color: #542530;
+        }
+
+        .cookie-details p {
+            font-size: 13px;
+            color: #777;
+            line-height: 1.5;
+            min-height: 40px;
+            margin-bottom: 12px;
+        }
+
+        .price-button {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+
+        .price {
+            font-size: 17px;
+            font-weight: bold;
+            color: #9b304b;
+        }
+
+        .price-button button {
+            background: #7b263a;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 12px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .price-button button:hover {
+            background: #a63b56;
+        }
+
+        .price-button button.added {
+            background: #ff69b4;
+        }
+
+        @media (max-width: 1000px) {
+            .cookies-container {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        @media (max-width: 700px) {
+            .cookies-container {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 15px;
+            }
+
+            .cookies-section {
+                padding: 25px 4%;
+            }
+
+            .heading h1 {
+                font-size: 28px;
+            }
+
+            .cookie-card img {
+                height: 160px;
+            }
+
+            .cookie-details {
+                padding: 12px;
+            }
+        }
+
+        @media (max-width: 450px) {
+            .cookies-container {
+                grid-template-columns: 1fr;
+            }
+
+            .cookie-card img {
+                height: 220px;
+            }
+        }
+/* cards end  */
+
+
+
+
+
+
+/* footer css start  */
+body{
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.footer{
+  background: #3d1630;
+  color: #f8c7d0;
+  padding: 30px 0 10px 0; /* upar neeche padding bara kiya */
+}
+
+.top-wave{
+  height: 35px;
+  background: #ffc3d0;
+  border-radius: 0 0 50% 50%;
+}
+
+.main{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px 40px;
+  gap: 30px;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+/* Bakerz Bite heading ka font alag */
+.box1{
+  width: 300px;
+}
+.box1 h2{
+  font-size: 28px; /* bara kiya */
+  font-family: 'Georgia', serif; /* alag font */
+  color: #ffffff;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+.box1 .small{
+  font-size: 12px;
+  letter-spacing: 2px;
+  margin-top: 5px;
+  color: #ffadc0;
+}
+.text{
+  font-size: 14px; /* text bhi thora bara */
+  margin-top: 15px;
+  line-height: 22px;
+}
+.tag{
+  font-style: italic;
+  margin-top: 20px;
+  color: #ff9eb0;
+  font-family: 'Brush Script MT', cursive; /* cake wali line ka font alag */
+  font-size: 16px;
+}
+
+/* Quick Links, Customer Care, Contact Us headings BSSSS AB THK GYII GAP LY LETI HUN GNG  */
+.box{
+  width: 170px;
+}
+.box h4{
+  font-size: 18px; /* heading bara */
+  font-family: 'Verdana', sans-serif; /* alag font */
+  color: #ffb0c0;
+  margin-bottom: 15px;
+  text-transform: uppercase; /* capital me */
+  letter-spacing: 1px;
+  border-bottom: 1px solid #ffffff2a;
+  padding-bottom: 5px;
+}
+.box a{
+  display: block;
+  color: #f8c7d0;
+  text-decoration: none;
+  font-size: 14px; /* links bhi bare */
+  margin-bottom: 8px;
+}
+.box a:hover{
+  color: white;
+  padding-left: 3px;
+}
+.box p{
+  font-size: 13px;
+  margin-bottom: 12px;
+  line-height: 18px;
+}
+
+.pink-box{
+  background: #fbd0d9;
+  color: #3d1630;
+  padding: 20px;
+  border-radius: 15px;
+  width: 220px;
+  margin-left: auto;
+}
+.pink-box h4{
+  font-size: 15px;
+}
+.pink-box p{
+  font-size: 12px;
+}
+/* <!-- pink box --> */
+.btn1{
+  background: #ff8fa3;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 20px;
+  margin-top: 12px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: bold;
+  width: 100%;
+  box-shadow: 0 2px 5px #00000033;
+}
+
+.btn1:hover{
+  background: #3d1630;
+  color: #ffc3d0;
+}
+
+
+.line{
+  background: #f9a8bb;
+  color: #3d1630;
+  text-align: center;
+  padding: 14px;
+  margin: 30px 40px 15px 40px;
+  border-radius: 25px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.last{
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 40px;
+  border-top: 1px solid #ffffff33;
+  font-size: 12px;
+}
+.last a{
+  color: #ffadc0;
+  text-decoration: none;
+}
+/* footer css end  */

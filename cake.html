@@ -1,0 +1,326 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bakerz Bite - Cakes</title>
+    <link rel="stylesheet" href="cake.css">
+</head>
+
+
+
+<body>
+<!-- navbar start -->
+
+<header>
+
+   <!-- uper ka acccounment oart -->
+    <div class="top-bar">
+        FRESHLY BAKED WITH LOVE — MADE JUST FOR YOU ♡
+    </div>
+
+    <!-- Brand Header -->
+    <div class="brand-header">
+        <a href="home.html" class="brand">
+           <img src="cake images/WhatsApp_Image_2026-10-27_at_12.54.24_AM-removebg-preview.png" alt="" width="10%">
+            <span>
+                <strong>Bakerz Bite</strong>
+                <small>PATISSERIE BAKERY</small>
+            </span>
+        </a>
+           <div class="searchbox">
+            <input type="text" id="search " placeholder="search here gng----">
+            
+           </div>
+      
+       
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <ul id="navLinks">
+            <!-- <li><a href="home.html" class="active">Home</a></li> -->
+            <li><a href="cake.html">Cakes</a></li>
+            <li><a href="pastries.html">Pastries</a></li>
+            <li><a href="cookies.html">Cookies</a></li>
+            <li><a href="pies.html">Pies</a></li>
+            <li><a href="merchandise.html">Merchandise</a></li>
+            <li><a href="offers.html">Offers</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="about.html">Our Story</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    
+
+</header>
+
+ <!-- navbar end  -->
+
+
+
+
+<!-- cake section start  -->
+<section class="cake-section">
+
+    <div class="heading">
+        <h1>Our Delicious Cakes</h1>
+        <p>Make Every Moment Sweeter With Bakerz Bite!</p>
+    </div>
+
+    <div class="cart">
+     <span id="cart-count"></span>
+    </div>
+
+    <div class="cake-container">
+<!-- card 1 -->
+        <div class="cake-card">
+            <img src="cake images/chocolate cake.jpg" alt="Chocolate Cake">
+            <div class="cake-details">
+                <h3>Chocolate Fudge Cake</h3>
+                <p>Rich chocolate layers with creamy fudge frosting.</p>
+                <div class="price-button">
+                    <span class="price">Rs. 1800</span>
+                   <button onclick="addToCart(this)">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+<!-- card 1 -->
+ <!-- card 2 -->
+        <div class="cake-card">
+            <img src="cake images/red velvet cake.jpg" alt="Red Velvet Cake">
+            <div class="cake-details">
+                <h3>Red Velvet Cake</h3>
+                <p>Soft red velvet sponge with delicious cream cheese frosting.</p>
+                <div class="price-button">
+                    <span class="price">Rs. 2200</span>
+                    <button onclick="addToCart(this)">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+<!-- card 2 -->
+ <!-- card 3 -->
+        <div class="cake-card">
+            <img src="cake images/strawberry cake.jpg" alt="Strawberry Cake">
+            <div class="cake-details">
+                <h3>Strawberry cake</h3>
+                <p>Chocolate sponge with whipped cream and cherries.</p>
+                <div class="price-button">
+                    <span class="price">Rs. 2000</span>
+                    <button onclick="addToCart(this)">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+<!-- card 3 -->
+ <!-- card 4 -->
+        <div class="cake-card">
+            <img src="cake images/vanila cake.jpg" alt="Vanilla Cake">
+            <div class="cake-details">
+                <h3>Vanilla Dream Cake</h3>
+                <p>Classic vanilla sponge with smooth creamy frosting.</p>
+                <div class="price-button">
+                    <span class="price">Rs. 1500</span>
+                    <button onclick="addToCart(this)">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+<!-- card 4 -->
+ <!-- card 5 -->
+        <div class="cake-card">
+            <img src="cake images/caremal cake.jpg" alt="Caramel cake">
+            <div class="cake-details">
+                <h3>caremal Cake</h3>
+                <p> sweet caremal cake  with soft sponge and creami.</p>
+                <div class="price-button">
+                    <span class="price">Rs. 1900</span>
+                    <button onclick="addToCart(this)">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+<!-- card 5 -->
+ <!-- card 6 -->
+        <div class="cake-card">
+            <img src="cake images/oreo cake.jpg" alt="Oreo Cake">
+            <div class="cake-details">
+                <h3>Oreo Chocolate Cake</h3>
+                <p>Chocolate cake topped with crunchy Oreo cookies.</p>
+                <div class="price-button">
+                    <span class="price">Rs. 2300</span>
+                    <button onclick="addToCart(this)">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+<!-- card 6 -->
+ <!-- card 7 -->
+
+ <div class="cake-card">
+            <img src="cake images/blueberry cake.jpg" alt="blueberry Cake">
+            <div class="cake-details">
+                <h3>blueberry Cake</h3>
+                <p>blueberry cake with a delicious topping.</p>
+                <div class="price-button">
+                    <span class="price">Rs. 2600</span>
+                    <button onclick="addToCart(this)">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+<!-- card 7 -->
+ <!-- card 8 -->
+        <div class="cake-card">
+            <img src="cake images/coffee cake.jpg" alt="Coffee Cake">
+            <div class="cake-details">
+                <h3>Coffee Mocha Cake</h3>
+                <p>A perfect blend of coffee flavour and chocolate cream.</p>
+                <div class="price-button">
+                    <span class="price">Rs. 2100</span>
+                    <button onclick="addToCart(this)">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+<!-- card 8 -->
+ <!-- card 9 -->
+
+ <div class="cake-card">
+            <img src="cake images/pineaple cake.jpg" alt="Pineapple Cake">
+            <div class="cake-details">
+                <h3>Pineapple Cake</h3>
+                <p>Light sponge with pineapple pieces and fresh cream.</p>
+                <div class="price-button">
+                    <span class="price">Rs. 1700</span>
+                    <button onclick="addToCart(this)">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+<!-- card 9 -->
+
+<!-- card 10 -->
+        <div class="cake-card">
+            <img src="cake images/cheesse cake with strawberry.jpg" alt="Cheesecake">
+            <div class="cake-details">
+                <h3>Cheesecake with Strawberry</h3>
+                <p>Smooth and  cheese strawberry cake.</p>
+                <div class="price-button">
+                    <span class="price">Rs. 2400</span>
+                    <button onclick="addToCart(this)">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+        <!-- card 10 -->
+<!-- card 11 -->
+        <div class="cake-card">
+            <img src="cake images/pistachoi cake.jpg" alt="pistachoi Cake">
+            <div class="cake-details">
+                <h3>pistachoi Cake</h3>
+                <p>Sweet pistachoi with a crunchy topping.</p>
+                <div class="price-button">
+                    <span class="price">Rs. 2500</span>
+                    <button onclick="addToCart(this)">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+        <!-- card 11 -->
+<!-- card 12 -->
+  
+<div class="cake-card">
+            <img src="cake images/birthday cake.webp" alt="Birthday Cake">
+            <div class="cake-details">
+                <h3>Birthday Special Cake</h3>
+                <p>A beautiful celebration cake for your special moments.</p>
+                <div class="price-button">
+                    <span class="price">Rs. 2800</span>
+                    <button onclick="addToCart(this)">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+<!-- card 12 -->
+    </div>
+</section>
+<!-- cake card end  -->
+<script>
+  
+let cartCount = 0;
+
+function addToCart(button) {
+    cartCount++;
+    document.getElementById("cart-count").textContent = cartCount;
+
+    button.style.backgroundColor = "#ff69b4";
+    button.style.color = "#ffffff";
+    button.textContent = "Added ";
+}
+
+</script>
+
+<!-- footer start -->
+<div class="footer">
+
+  <div class="top-wave"></div>
+
+  <div class="main">
+    <!-- first part -->
+    <div class="box1">
+      <h2>Bakerz Bite</h2>
+      <p class="small">PATISSERIE & BAKERY</p>
+      <p class="text">Freshly baked treats, made with love. From classic cakes to delicious pastries, we bring sweetness to your special moments.</p>
+      <p class="tag">Life is better with cake</p>
+    </div>
+
+    <!-- quick links -->
+    <div class="box">
+      <h4>Quick Links</h4>
+      <a href="home.html">> Home</a>
+      <a href="cakes.css">> Cakes</a>
+      <a href="pastries.html">> Pastries</a>
+      <a href="cookies.html">> Cookies</a>
+      <a href="pies.html">> Pies</a>
+      <a href="merchandise.html">> Merchandise</a>
+      <a href="offers.html">> Offers</a>
+      <a href="gallery.html">> Gallery</a>
+      <a href="sitemap.html">> Sitemap</a>
+    </div>
+
+    <!-- customer care -->
+    <div class="box">
+      <h4>Customer Care</h4>
+      <a href="about.html">> About Us</a>
+      <a href="faq.html">> FAQ</a>
+      <a href="about.html">> Our Story</a>
+      <a href="feedback.html">> Feedback</a>
+      <a href="contact.html">> Contact Us</a>
+    </div>
+
+    <!-- contact -->
+    <div class="box">
+      <h4>Contact Us</h4>
+      <p>Email<br>bakerzbite@gmail.com</p>
+      <p>Phone<br>+92 5317627647</p>
+      <p>Address<br>Shop No. 12, karachi, Pakistan</p>
+    </div>
+
+    <!-- pink box -->
+        <div class="pink-box">
+      <h4>Date & Time</h4>
+      <p>Date: <span id="date"></span></p>
+      <p>Time: <span id="time"></span></p>
+      <hr>
+      <h4>Your Location</h4>
+      <p>Location: <span id="loc">Not shared</span></p>
+      <button class="btn1">Share My Location</button>
+    </div>
+
+    </div>
+  </div>
+
+  <div class="line">
+     FRESHLY BAKED WITH LOVE - SWEET MOMENTS EVERY DAY - BAKERZ BITE
+  </div>
+
+
+</div>
+<!-- footer end  -->
+
+</body>
+</html>

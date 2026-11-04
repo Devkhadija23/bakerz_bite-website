@@ -1,0 +1,320 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bakerz Bite - Cookies</title>
+<link rel="stylesheet" href="cookies.css">
+    
+</head>
+
+<body>
+
+<!-- navbar start -->
+
+<header>
+
+   <!-- uper ka acccounment oart -->
+    <div class="top-bar">
+        FRESHLY BAKED WITH LOVE — MADE JUST FOR YOU ♡
+    </div>
+
+    <!-- Brand Header -->
+    <div class="brand-header">
+        <a href="home.html" class="brand">
+           <img src="cake images/WhatsApp_Image_2026-10-27_at_12.54.24_AM-removebg-preview.png" alt="" width="10%">
+            <span>
+                <strong>Bakerz Bite</strong>
+                <small>PATISSERIE BAKERY</small>
+            </span>
+        </a>
+           <div class="searchbox">
+            <input type="text" id="search " placeholder="search here gng----">
+            
+           </div>
+      
+       
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <ul id="navLinks">
+            <!-- <li><a href="home.html" class="active">Home</a></li> -->
+            <li><a href="cake.html">Cakes</a></li>
+            <li><a href="pastries.html">Pastries</a></li>
+            <li><a href="cookies.html">Cookies</a></li>
+            <li><a href="pies.html">Pies</a></li>
+            <li><a href="merchandise.html">Merchandise</a></li>
+            <li><a href="offers.html">Offers</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="about.html">Our Story</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    
+
+</header>
+
+ <!-- navbar end  -->
+
+
+<section class="cookies-section">
+
+    <div class="heading">
+        <h1>Our Delicious Cookies</h1>
+        <p>Freshly Baked Cookies, Made With Love!</p>
+    </div>
+
+    <div class="cart">
+     <span id="cart-count"></span>
+    </div>
+
+    <div class="cookies-container">
+
+        <!-- Cookie 1 -->
+        <div class="cookie-card">
+            <img src="cookies images/cookie 1.jpg" alt="Chocolate Chip Cookies">
+            <div class="cookie-details">
+                <h3>Chocolate Chip Cookies</h3>
+                <p>Classic cookies loaded with delicious chocolate chips.</p>
+                <div class="price-button">
+                    <span class="price">Rs. 450</span>
+                    <button onclick="addToCart(this)">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Cookie 2 -->
+        <div class="cookie-card">
+            <img src="cookies images/cookie 2.jpg" alt="Double Chocolate Cookies">
+            <div class="cookie-details">
+                <h3>Double Chocolate Cookies</h3>
+                <p>Rich chocolate cookies for chocolate lovers.</p>
+                <div class="price-button">
+                    <span class="price">Rs. 500</span>
+                    <button onclick="addToCart(this)">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Cookie 3 -->
+        <div class="cookie-card">
+            <img src="cookies images/cookie 3.jpg" alt="Butter Cookies">
+            <div class="cookie-details">
+                <h3>Butter Cookies</h3>
+                <p>Light, crispy and buttery homemade cookies.</p>
+                <div class="price-button">
+                    <span class="price">Rs. 350</span>
+                    <button onclick="addToCart(this)">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Cookie 4 -->
+        <div class="cookie-card">
+            <img src="cookies images/cookie 4.jpg" alt="Oreo Cookies">
+            <div class="cookie-details">
+                <h3>Oreo Cookies</h3>
+                <p>Crunchy chocolate cookies with a creamy taste.</p>
+                <div class="price-button">
+                    <span class="price">Rs. 480</span>
+                    <button onclick="addToCart(this)">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Cookie 5 -->
+        <div class="cookie-card">
+            <img src="cookies images/cookie 5.jpg" alt="Red Velvet Cookies">
+            <div class="cookie-details">
+                <h3>Red Velvet Cookies</h3>
+                <p>Soft red velvet cookies with a sweet flavour.</p>
+                <div class="price-button">
+                    <span class="price">Rs. 550</span>
+                    <button onclick="addToCart(this)">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Cookie 6 -->
+        <div class="cookie-card">
+            <img src="cookies images/cookie 6.jpg" alt="Peanut Butter Cookies">
+            <div class="cookie-details">
+                <h3>Peanut Butter Cookies</h3>
+                <p>Nutty, soft and delicious peanut butter cookies.</p>
+                <div class="price-button">
+                    <span class="price">Rs. 420</span>
+                    <button onclick="addToCart(this)">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Cookie 7 -->
+        <div class="cookie-card">
+            <img src="cookies images/cookie 7.jpg" alt="Almond Cookies">
+            <div class="cookie-details">
+                <h3>Almond Cookies</h3>
+                <p>Crispy cookies topped with delicious almonds.</p>
+                <div class="price-button">
+                    <span class="price">Rs. 600</span>
+                    <button onclick="addToCart(this)">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Cookie 8 -->
+        <div class="cookie-card">
+            <img src="cookies images/cookie 8.jpg" alt="Brownie Cookies">
+            <div class="cookie-details">
+                <h3>Brownie Cookies</h3>
+                <p>Fudgy chocolate cookies with brownie flavour.</p>
+                <div class="price-button">
+                    <span class="price">Rs. 520</span>
+                    <button onclick="addToCart(this)">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Cookie 9 -->
+        <div class="cookie-card">
+            <img src="cookies images/cookie 9.jpg" alt="White Chocolate Cookies">
+            <div class="cookie-details">
+                <h3>White Chocolate Cookies</h3>
+                <p>Sweet cookies with creamy white chocolate chips.</p>
+                <div class="price-button">
+                    <span class="price">Rs. 530</span>
+                    <button onclick="addToCart(this)">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Cookie 10 -->
+        <div class="cookie-card">
+            <img src="cookies images/cookie 10.jpg" alt="Oatmeal Cookies">
+            <div class="cookie-details">
+                <h3>Oatmeal Cookies</h3>
+                <p>Crunchy oatmeal cookies with a homemade taste.</p>
+                <div class="price-button">
+                    <span class="price">Rs. 400</span>
+                    <button onclick="addToCart(this)">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Cookie 11 -->
+        <div class="cookie-card">
+            <img src="cookies images/cookie 11.jpg" alt="Coconut Cookies">
+            <div class="cookie-details">
+                <h3>Coconut Cookies</h3>
+                <p>Sweet coconut cookies with a crispy texture.</p>
+                <div class="price-button">
+                    <span class="price">Rs. 380</span>
+                    <button onclick="addToCart(this)">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Cookie 12 -->
+        <div class="cookie-card">
+            <img src="cookies images/cookie 12.jpg" alt="Choco Lava Cookies">
+            <div class="cookie-details">
+                <h3>Choco Lava Cookies</h3>
+                <p>Chocolate cookies with a rich, soft centre.</p>
+                <div class="price-button">
+                    <span class="price">Rs. 580</span>
+                    <button onclick="addToCart(this)">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<script>
+    let cartCount = 0;
+
+    function addToCart(button) {
+        cartCount++;
+
+        document.getElementById("cart-count").textContent = cartCount;
+
+        button.textContent = "Added ";
+        button.classList.add("added");
+    }
+</script>
+
+
+
+<!-- footer start -->
+<div class="footer">
+
+  <div class="top-wave"></div>
+
+  <div class="main">
+    <!-- first part -->
+    <div class="box1">
+      <h2>Bakerz Bite</h2>
+      <p class="small">PATISSERIE & BAKERY</p>
+      <p class="text">Freshly baked treats, made with love. From classic cakes to delicious pastries, we bring sweetness to your special moments.</p>
+      <p class="tag">Life is better with cake</p>
+    </div>
+
+    <!-- quick links -->
+    <div class="box">
+      <h4>Quick Links</h4>
+      <a href="home.html">> Home</a>
+      <a href="cakes.css">> Cakes</a>
+      <a href="pastries.html">> Pastries</a>
+      <a href="cookies.html">> Cookies</a>
+      <a href="pies.html">> Pies</a>
+      <a href="merchandise.html">> Merchandise</a>
+      <a href="offers.html">> Offers</a>
+      <a href="gallery.html">> Gallery</a>
+      <a href="sitemap.html">> Sitemap</a>
+    </div>
+
+    <!-- customer care -->
+    <div class="box">
+      <h4>Customer Care</h4>
+      <a href="about.html">> About Us</a>
+      <a href="faq.html">> FAQ</a>
+      <a href="about.html">> Our Story</a>
+      <a href="feedback.html">> Feedback</a>
+      <a href="contact.html">> Contact Us</a>
+    </div>
+
+    <!-- contact -->
+    <div class="box">
+      <h4>Contact Us</h4>
+      <p>Email<br>bakerzbite@gmail.com</p>
+      <p>Phone<br>+92 5317627647</p>
+      <p>Address<br>Shop No. 12, karachi, Pakistan</p>
+    </div>
+
+    <!-- pink box -->
+        <div class="pink-box">
+      <h4>Date & Time</h4>
+      <p>Date: <span id="date"></span></p>
+      <p>Time: <span id="time"></span></p>
+      <hr>
+      <h4>Your Location</h4>
+      <p>Location: <span id="loc">Not shared</span></p>
+      <button class="btn1">Share My Location</button>
+    </div>
+
+    </div>
+  </div>
+
+  <div class="line">
+     FRESHLY BAKED WITH LOVE - SWEET MOMENTS EVERY DAY - BAKERZ BITE
+  </div>
+
+
+</div>
+<!-- footer end  -->
+
+</body>
+</html>
